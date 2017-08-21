@@ -179,6 +179,7 @@ return [
         Zizaco\Entrust\EntrustServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
         Laravel\Passport\PassportServiceProvider::class,
+        Gloudemans\Shoppingcart\ShoppingcartServiceProvider::class,
 
     ],
 
@@ -231,6 +232,7 @@ return [
         'Entrust'   => Zizaco\Entrust\EntrustFacade::class,
         'Form' => 'Collective\Html\FormFacade',
         'Html' => 'Collective\Html\HtmlFacade',
+        'Cart'    => Gloudemans\Shoppingcart\Facades\Cart::class,
 
     ],
 

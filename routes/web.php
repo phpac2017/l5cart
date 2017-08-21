@@ -67,6 +67,7 @@ Route::group(['middleware' => ['auth']], function() {
 	//Route::get('/login','FrontController@login');
 	//Route::get('/logout','FrontController@logout');
 	Route::get('/cart','FrontController@cart');
+	Route::post('/cart','FrontController@cart');
 	Route::get('/checkout','FrontController@checkout');
 	Route::get('/search/{query}','FrontController@search');
 
